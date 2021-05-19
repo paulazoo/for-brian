@@ -1,0 +1,106 @@
+Using the gen
+etic code, 
+translate the sequence into amino acids, and 
+assign a value
+ (S, N, or M)
+ to each site in the 
+starting
+ sequence 
+– either 
+a change in the nucleotide
+ at 
+each
+ site will be 
+synonymous
+ (“S”), nonsynonymous
+ (“N”), or mixed (“M”).  If changing the base at a site DEFINITELY 
+changes the amino acid encoded, it counts as nonsynonymous.  
+If changing the base at a site 
+DEFINITELY DOESN’T change the amino acid encoded, it counts as synonymous (you ONLY find 
+these at
+ the 3
+rd codon position). 
+ If changing the base SOMETIMES changes the amino acid but 
+sometimes doesn’t, it counts as mixed.  Most mixed sites are at the 3
+rd codon position, but 
+codons 
+for 
+leucine 
+and 
+arginine can have mixed sites at the 1
+st position
+ as wel
+l.    His Thr Pro Gly  Species 1
+  CAC ACC CCG GGA     NNM NNS NNS NNS Species 
+2  CAG ACA CCG GGG  Calculate two values for each “mixed” site 
+– the first value is the frequency with which a change in 
+the “mixed” site would be synonymous (“S”), and the second value is the frequency with which a 
+change in the “mixed” site would be nonsynonymous (“N”).  For
+ the sequence above, the third 
+base in the CAC codon is the only one that’s mixed 
+– the third “C” could change either to an A, T, 
+or G.  A change to “T” would be synonymous, while a change to “A” or “G” would be 
+nonsynonymous
+.  Thus this site is considered
+ 1/3 “S” and 2/3 “N.”
+  * A Note *
+ Most codons with a “mixed” third position occur in a 2/2 split between two amino acids, 
+which is why we 
+most often
+ assign “mixed” sites a value of 2/3 N and 1/3 S.  However, the 
+codons that code for isoleucine and methioni
+ne are distributed differently 
+– only ATG codes 
+for methionine, while ATT, ATC, and ATA all code for isoleucine.  For this reason, if the 
+ancestral codon was for methionine, it is counted as “N,” while if the ancestral codon was 
+for isoleucine, it is count
+ed as “M” and divided 2/3 S and 1/3 N.  
+Calculations involving the 
+codons for tryptophan and cysteine must be similarly adjusted, with the additional 
+note
+ that 
+they share their first two bases with a stop codon as well
+.  Add up the total number of synonymous and nonsynonymous sites, adding
+ 1 to each total for an N 
+or S, and
+ 1/3 or 2/3
+ to each total for 
+a mixed site.  F
+or the example above, we would have 
+  Nonsynonymous = 
+8 N’s + 1 M
+ (2/3N) = 8.67
+ nonsynonymous sites
+ Synonym
+ous = 
+3 S’s + 1 M
+ (1/3 S) = 3.33
+ synonymous sites
+  These are all the POSSIBLE 
+differences
+ that 
+you could see
+.  Now look at the 
+differences
+ that 
+ACTUALLY 
+APPEAR 
+– they have been underlined in the sequence below
+.  Synonymous 
+differences
+ are bold and green, w
+hile nonsynonymous 
+differences
+ are bold and purple.  You can tell if they are 
+synonymous or nonsynonymous based on the translation of the sequence
+, which is why we don’t 
+worry about whether or not things were “mixed” at this point 
+– we’re not looking at th
+e possible 
+differences, but the ones that are found in the sequence
+.  His Thr Pro Gly  Species 
+1  CAC ACC CCG GGA  Species 
+2  CAG ACA CCG GGG Gln Thr Pro Gly  You can see from this that there are 2 synonymous differences and 1 nonsynonymous difference.
+  Calculate
+ the Ka and Ks values, and determine the ratio between the two.
+  

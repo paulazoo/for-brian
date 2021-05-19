@@ -6,3 +6,5 @@ print(pdfReader.numPages)
 pageObj = pdfReader.getPage(1)          #'9' is the page number
 print(pageObj.extractText())
 
+pdf_output = open("pdf_output.txt","w")
+pdf_output.write(pageObj.extractText())
